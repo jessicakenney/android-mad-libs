@@ -6,11 +6,23 @@
     android:layout_height="match_parent"
     tools:context="com.epicodus.madlibs.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/background"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Play MadLibs!"
         android:textSize="40sp"
+        android:textColor="@color/colorTextIcons"
+        android:textStyle="bold"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -22,6 +34,61 @@
         android:layout_height="wrap_content"
         android:text="MadLib it!"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorTextIcons"/>
+
+
+    <EditText
+        android:id="@+id/loudNoiseEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Loud noise"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/appNameTextView"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/nounEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Noun"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/loudNoiseEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/verbEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Verb"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/nounEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/clothingItemEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Clothing Item"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/verbEditText"
         android:layout_centerHorizontal="true" />
 
 

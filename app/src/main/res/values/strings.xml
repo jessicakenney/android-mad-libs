@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">MadLibs</string>
+    <string name="play_madlibs">Play MadLibs!</string>
+    <string name="madlib_it">MadLib it!</string>
+    <string name="loud_noise">Loud noise</string>
+    <string name="verb">Verb</string>
+    <string name="clothing_item">Clothing Item</string>
+    <string name="beverage">Beverage</string>
+    <string name="food_item">Food item</string>
+    <string name="body_part">Body part</string>
+    <string name="noun_that_moves">Noun that moves</string>
+    <string name="noun">Noun</string>
 </resources>

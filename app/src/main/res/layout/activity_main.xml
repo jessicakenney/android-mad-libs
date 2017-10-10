@@ -91,5 +91,57 @@
         android:layout_below="@+id/verbEditText"
         android:layout_centerHorizontal="true" />
 
+    <EditText
+        android:id="@+id/beverageEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Beverage"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/clothingItemEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/foodEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Food item"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/beverageEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/bodyPartEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Body part"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/foodEditText"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/nounMovesEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:padding="5dp"
+        android:hint="Noun that moves"
+        android:inputType="text"
+        android:background="@color/colorTextIcons"
+        android:layout_below="@+id/bodyPartEditText"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
